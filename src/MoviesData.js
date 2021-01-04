@@ -1,3 +1,4 @@
+import ReactPlayer from 'react-player'
 export const moviesData = [
     {
       id: Math.random(),
@@ -9,7 +10,8 @@ export const moviesData = [
       type: 'Action | Crime',
       description:
         "A relentlessly-paced hybrid of gritty crime thriller and Lovecraftian supernatural horror, The Devil's Mile follows a trio of kidnappers who take an ill-advised detour en route to deliver...",
-    },
+      video : <ReactPlayer controls url ='https://www.youtube.com/watch?v=iGTSDqSLXN0&t=12s&ab_channel=MovieclipsIndie'/>
+      },
     {
       id: Math.random(),
       image:
@@ -20,7 +22,8 @@ export const moviesData = [
       type: 'Western',
       description:
         'A mysterious stranger with a harmonica joins forces with a notorious desperado to protect a beautiful widow from a ruthless assassin working for the railroad.',
-    },
+      video : <ReactPlayer controls url='https://www.youtube.com/watch?v=c8CJ6L0I6W8&t=62s&ab_channel=HDRetroTrailers'/>
+      },
     {
       id: Math.random(),
       image:
@@ -31,7 +34,8 @@ export const moviesData = [
       type: 'Crime | Drama',
       description:
         'A mentally unstable veteran works as a nighttime taxi driver in New York City, where the perceived decadence and sleaze fuels his urge for violent action by attempting to liberate a presidential campaign worker and an underage prostitute.',
-    },
+      video : <ReactPlayer controls url='https://www.youtube.com/watch?v=UUxD4-dEzn0&t=6s&ab_channel=SonyPicturesHomeEntertainment'/>
+      },
     {
       id: Math.random(),
       image:
@@ -42,7 +46,8 @@ export const moviesData = [
       type: 'Action | Adventure',
       description:
         'In a self-destructing world, a vengeful Australian policeman sets out to stop a violent motorcycle gang.',
-    },
+      video : <ReactPlayer controls url='https://www.youtube.com/watch?v=caHnaRq8Qlg&t=6s&ab_channel=N.B.'/>
+      },
     {
       id: Math.random(),
       image:
@@ -53,7 +58,8 @@ export const moviesData = [
       type: 'Comedy | Drama',
       description:
         'A family determined to get their young daughter into the finals of a beauty pageant take a cross-country trip in their VW bus.',
-    },
+      video : <ReactPlayer controls url='https://www.youtube.com/watch?v=wvwVkllXT80&t=3s&ab_channel=BigBeachFilms'/>
+      },
     {
       id: Math.random(),
       image:
@@ -64,6 +70,7 @@ export const moviesData = [
       type: 'Action',
       description:
         "The lead character, called 'The Bride,' was a member of the Deadly Viper Assassination Squad, led by her lover 'Bill.'The Bride' decided to escape her life as a killer.",
-      details: 'https://www.imdb.com/title/tt0266697/plotsummary?ref_=tt_stry_pl',
+      
+      video : <ReactPlayer controls url='https://www.youtube.com/watch?v=7kSuas6mRpk&t=1s&ab_channel=MovieclipsClassicTrailers'/>
     },
 ];
